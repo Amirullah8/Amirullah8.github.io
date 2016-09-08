@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<style type="text/css">
+
+
+	body {
+		background: #f5f592;
+	}
+	div#header {
+		background: 20px 10px
+		text-align:center;
+	}
+	li {
+		list-style: none;
+		display: inline-block;
+		background: #fd5252
+		border:2px solid yellow;
+		padding:10px 26px;
+		margin: 0 16px;
+		border-radius: 16px;
+		box-shadow: #383737 5px 5px 10px;
+		font-family: sans-serif;
+		font-variant: bold;
+		color: #ece9c6;
+		text-shadow: black 2px 2px 2px;
+	}
+	li:hover {
+		background: black;
+		text-decoration: 
+	}
+	img {
+		width: 100px;
+		height: 100px;
+
+	}
+
+
+</style>
+
+<link rel="stylesheet" type="text/css" href="abc.css">
+
+</head>
+<body>
+<div id="header">
+
+<img src="dota-2-official.jpg">
+<ul>
+	<li><a href="">Menu 1</a></li>
+	<li><a href="" style="color:red;">Menu 2</a></li>
+	<li><a href="" style="color: black;">Menu 3</a></li>
+	<li><a href="" style="color: orange;">Menu 4</a></li>
+	<li><a href="" style="color: orange;">Menu 5</a></li>
+
+</ul>
+
+
+
+
+
+
+</body>
+</html>
