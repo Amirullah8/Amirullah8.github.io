@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+
+.item {
+	
+	display: inline-block;
+	width: 25%;
+	height: 50px;
+	text-align: center;
+	border: 2px black solid;
+	padding: 11px ;
+	box-sizing: border-box;
+	margin: 20px 0;
+
+}
+
+div#container div{
+	float: left;
+	/*boleh merubah suatu posisi ke kanan kiri*/
+}
+div#header {
+	background: yellow;
+}
+div#left {
+	background: green;
+}
+div#right {
+	background:red;
+}
+div#footer {
+	background: grey;
+}
+div#container {
+	width: 100%;
+	background: black;
+	margin: auto;
+}
+div#container div#footer {
+	float: none;
+	/* dibutuhkan untuk mengelakkan dan menstop */
+}
+
+
+</style>
+
+
+
+
+
+</head>
+<body>
+
+
+<div id="container">
+<div id="header" class="item">item</div>
+<div id="left" class="item">item</div>
+<div id="right" class="item">item</div>
+<div id="footer" class="item">item</div>
+
+</div>
+
+</body>
+</html>
