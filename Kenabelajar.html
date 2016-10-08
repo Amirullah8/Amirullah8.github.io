@@ -133,6 +133,26 @@ div#center {
     			top: 59px;
     			right: 154px;
 		}
+		div#coloum1 {
+    margin-top: 11px;
+    margin-bottom: 9px;
+    display: inline-block;
+    width: 380px;
+    vertical-align: top;
+    height: 262px;
+    box-sizing: border-box;
+    margin-left: 7px;
+}
+		div#coloum2 {
+    margin-top: 11px;
+    margin-bottom: 9px;
+    display: inline-block;
+    width: 402px;
+    vertical-align: top;
+    height: 215px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
 	</style>
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
@@ -221,19 +241,21 @@ div#center {
     <input type="text" name="nama">
     <br><br>
     <input type="submit" value="Submit">
-	  <p>Nama dan alamat harus sesuai dengan kad pengenalan.</p>
+	  <p>*NB. Sesuai dengan kad Pengenalan.</p>
   </fieldset>
 </form>
 </div><!--end of coloum1-->
 		<div id="coloum2"><!--start of coloum2-->
-		<form>
 		<fieldset>
     <legend>SURVEY</legend>
-  <input type="radio" name="gender" value="male" checked> Male<br>
-  <input type="radio" name="gender" value="female"> Female<br>
-  <input type="radio" name="gender" value="other"> Other<br><br>
+  <div id="radio">			
+  <form> Gender :
+  <input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other
+ </form>				
+ </div>
 </fieldset>
-</form> 
 </div><!--end of coloum2-->
 		<div id="footer">
 			<!--Start Of Footer-->
