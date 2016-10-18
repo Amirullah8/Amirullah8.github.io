@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+    width: 688px;
+    margin: auto;
+    background: white;
+}
+body {
+    background-color: black;
+}
+.header {
+    padding: 20px;
+}
+.form {
+    padding: 15px;
+}
