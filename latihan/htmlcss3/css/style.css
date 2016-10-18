@@ -189,7 +189,11 @@ video {
   width: 206px;
   margin: 0 auto;
   background-color: red;
-  animation-name: box1;
+  
+}
+
+.box1:hover {
+	animation-name: box1;
   animation-duration: 1.5s; 
   animation-timing-function: ease-out; 
   animation-delay: 0;
@@ -198,6 +202,8 @@ video {
   animation-fill-mode: none;
   animation-play-state: running;
 }
+
+
 @keyframes box1 {
   0% {
     transform: scale(.3);
