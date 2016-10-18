@@ -182,6 +182,7 @@ video {
 .box2:hover { 
     background-color: yellow;
     border-radius: 50%;
+    transform: rotate(180deg);
 }
 .box1 {
   height: 179px;
