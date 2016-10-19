@@ -28,3 +28,42 @@ body {
     padding: 20px;
     margin-top: -27px;
 }
+input#pasword {
+    width: 364px;
+    padding: 8px;
+}
+input#re-enter {
+    width: 364px;
+    padding: 8px;
+}
+input#email {
+    width: 364px;
+    padding: 8px;
+}
+input#last {
+    width: 157px;
+    padding: 8px;
+}
+input#nama {
+    padding: 8px;
+    width: 178px;
+    margin-right: 5px;
+}
+.birth {
+    font-size: 19px;
+    margin-bottom: -8px;
+}
+div#drop {
+    display: inline-flex;
+    padding: 0px;
+}
+select {
+    padding: 4px;
+}
+.radio {
+    margin-top: 16px;
+}
+p.ayat {
+    margin-top: -16px;
+    margin-bottom: -2px;
+}
