@@ -3,8 +3,8 @@
 	padding: 0;
 }
 .container {
-    width: 688px;
-    margin: auto;
+    width: 564px;
+    margin: 47px auto;
     background: white;
 }
 body {
@@ -15,4 +15,16 @@ body {
 }
 .form {
     padding: 15px;
+}
+.page {
+    margin-bottom: 9px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.awal {
+    font-size: 20px;
+}
+.form {
+    padding: 20px;
+    margin-top: -27px;
 }
