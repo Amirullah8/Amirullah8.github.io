@@ -53,12 +53,10 @@ input#nama {
     font-size: 19px;
     margin-bottom: -8px;
 }
-div#drop {
-    display: inline-flex;
-    padding: 0px;
-}
 select {
     padding: 4px;
+    display: inline-block;
+    margin-left: 0px;
 }
 .radio {
     margin-top: 16px;
@@ -67,12 +65,13 @@ p.ayat {
     margin-top: -16px;
     margin-bottom: -2px;
     font-size: 11px;
-}
-p.tepi {
-    display: inline;
-    margin-top: 0px;
+}p.tepi {
+    display: inline-block;
+    margin-top: -3px;
     padding: 6px;
-    font-size: 11px;
+    font-size: 9px;
+    position: relative;
+    top: 4px;
 }
 p {
     font-size: 11px;
