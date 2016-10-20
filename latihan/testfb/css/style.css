@@ -84,4 +84,6 @@ input#sign {
     width: 151px;
     text-align: center;
     font-size: 19px;
+    background: rgba(76, 175, 80, 0.3);
+    border-radius: 8px;
 }
