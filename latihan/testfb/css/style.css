@@ -3,9 +3,9 @@
 	padding: 0;
 }
 .container {
-    width: 564px;
+    width:465px;
     margin: 47px auto;
-    background: #f5f8fa;
+       background: #e6e8ec;
 }
 body {
     background-color: black;
@@ -72,6 +72,7 @@ p.ayat {
     font-size: 9px;
     position: relative;
     top: 4px;
+	width: 111px;
 }
 p {
     font-size: 11px;
