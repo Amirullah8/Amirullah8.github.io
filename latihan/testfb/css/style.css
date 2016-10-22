@@ -17,28 +17,28 @@ body {
 input#pasword {
     width: 364px;
     padding: 8px;
-    border-radius: 4px 4px 5px 5px;
+    border-radius: 6px 6px;
 }
 input#re-enter {
     width: 364px;
     padding: 8px;
-    border-radius: 4px 4px 5px 5px;
+    border-radius: 6px 6px;
 }
 input#email {
     width: 364px;
     padding: 8px;
-    border-radius: 4px 4px 5px 5px;
+    border-radius: 6px 6px;
 }
 input#last {
     width: 157px;
     padding: 8px;
-    border-radius: 4px 4px 5px 5px;
+    border-radius: 6px 6px;
 }
 input#nama {
     padding: 8px;
     width: 178px;
     margin-right: 5px;
-    border-radius: 4px 4px 5px 5px;
+    border-radius: 6px 6px;
 }
 select {
     padding: 5px;
