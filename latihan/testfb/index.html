@@ -6,13 +6,12 @@
 </head>
 <body>
 <div class="container"><!--start of container-->
-<div class="header"> <!--start of header-->
-	<div class="page">Sign Up</div>
-	<div class="awal">It's free and always will be.</div>
-	</div><!--end of header-->
+<form>
+	<h1>Sign Up</h1>
+	<h3>It's free and always will be.</h3>
 <div class="form"><!--start of form-->
 		<div id="coloum1"><!--Start of Coloum1-->
-		<form>
+		
 			<label class="nama"></label>
 		    	<input name="nama" type="text" id="nama" placeholder="First name">
 		    	<label class="last"></label> 
@@ -29,10 +28,10 @@
 		    	<br>
 		    	<label class="pasword"></label>
 		    	<input name="pasword" type="text" id="pasword" placeholder="New password"> <br>
-		  </form>
+		  
 		  </div>
-		  <br>
-	<label>Birthday</label>
+		  
+	<p class="day">Birthday</p>
 <br>
 	<select name="month">
 		 <option value="month">Month</option>
@@ -43,7 +42,8 @@
         <select name="year">
 		 <option value="year">Year</option>
 		</select>
-<p class="tepi"> Why do I need to Provide my birthday?</p>
+<p class="tepi"> <span><a href="https://www.facebook.com">Why do I need to Provide my birthday?</a></span>
+</p>
 <br>
 <div class="radio">			
 		  <form> 
@@ -51,7 +51,7 @@
 		<input type="radio" name="gender" value="female">
 		  <label>Female</label>
 		  
-		  <input type="radio"name="gender" value="male">
+		  <input type="radio" name="gender" value="male">
 		<label>Male</label>
 		   
 		   
@@ -59,15 +59,17 @@
 		</form>
 </div>
 <br>
-<br>
-	<p class="ayat">By clicking Sign Up, you agree to our Terms and that you have</p><p> read our Data Policy, including our Cookie Use.</p>
 
-<input value="Sign Up" id="sign" type="Sign Up">
+	<p class="ayat">By clicking Sign Up, you agree to our <span><a href="https://www.facebook.com">Terms</a></span> and that you have</p><p> read our <span><a href="https://www.facebook.com">Data Policy</a></span>, including our <span><a href="https://www.facebook.com">Cookie Use</a></span>.</p>
 
-
+<button type="button" onclick="alert('Hello world!')">Sign Up</button>
 
 
-</div> 
+
+
+
+</div></form> 
+  
 	</div>	<!--end of container-->
 </body>
 </html>
