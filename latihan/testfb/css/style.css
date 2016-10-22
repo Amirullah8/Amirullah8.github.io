@@ -10,20 +10,6 @@
 body {
     background-color: black;
 }
-.header {
-    padding: 20px;
-}
-.form {
-    padding: 15px;
-}
-.page {
-    margin-bottom: 9px;
-    font-size: 30px;
-    font-weight: bold;
-}
-.awal {
-    font-size: 20px;
-}
 .form {
     padding: 20px;
     margin-top: -27px;
@@ -31,59 +17,81 @@ body {
 input#pasword {
     width: 364px;
     padding: 8px;
+    border-radius: 4px 4px 5px 5px;
 }
 input#re-enter {
     width: 364px;
     padding: 8px;
+    border-radius: 4px 4px 5px 5px;
 }
 input#email {
     width: 364px;
     padding: 8px;
+    border-radius: 4px 4px 5px 5px;
 }
 input#last {
     width: 157px;
     padding: 8px;
+    border-radius: 4px 4px 5px 5px;
 }
 input#nama {
     padding: 8px;
     width: 178px;
     margin-right: 5px;
-}
-.birth {
-    font-size: 19px;
-    margin-bottom: -8px;
+    border-radius: 4px 4px 5px 5px;
 }
 select {
-    padding: 4px;
+    padding: 5px;
     display: inline-block;
     margin-left: 0px;
+    float: left;
 }
 .radio {
-    margin-top: 16px;
+    margin-top: 8px;
 }
 p.ayat {
     margin-top: -16px;
     margin-bottom: -2px;
     font-size: 11px;
-}p.tepi {
+}
+p.tepi {
     display: inline-block;
-    margin-top: -3px;
-    padding: 6px;
+    margin-top: -7px;
+    padding: 7px;
     font-size: 9px;
     position: relative;
     top: 4px;
-	width: 111px;
+    width: 115px;
+    margin-left: 6px;
 }
-p {
-    font-size: 11px;
-    margin-top: 4px;
+
+form {
+    padding: 10px;
+    /* margin-right: 2px; */
 }
-input#sign {
+
+h1 {
+    margin-left: 21px;
+}
+
+h3 {
+    margin-left: 21px;
+    margin-bottom: 29px;
+}
+
+label.bday {margin-top: 40px;}
+
+p.day {
     margin-top: 10px;
-    padding: 5px;
-    width: 151px;
-    text-align: center;
-    font-size: 19px;
-    background: rgba(76, 175, 80, 0.3);
-    border-radius: 8px;
+    margin-bottom: -12px;
+    font-size: 17px;
+}
+
+button {
+    padding: 6px;
+    width: 186px;
+    height: 41px;
+    margin-top: 19px;
+    border-radius: 5px;
+    font-size: 21px;
 }
