@@ -47,12 +47,15 @@ select {
     float: left;
 }
 .radio {
-    margin-top: 8px;
+    margin-top: 20px;
+}
+p {
+    font-size: 10px;
 }
 p.ayat {
-    margin-top: -16px;
-    margin-bottom: -2px;
-    font-size: 11px;
+    margin-top: -7px;
+    margin-bottom: 2px;
+    font-size: 10px;
 }
 p.tepi {
     display: inline-block;
@@ -94,4 +97,7 @@ button {
     margin-top: 19px;
     border-radius: 5px;
     font-size: 21px;
+}
+a {
+	text-decoration: none;
 }
