@@ -95,8 +95,9 @@ button {
     width: 186px;
     height: 41px;
     margin-top: 19px;
-    border-radius: 5px;
+    border-radius: 8px 8px;
     font-size: 21px;
+    background: rgb(95, 155, 76);
 }
 a {
 	text-decoration: none;
