@@ -1,0 +1,66 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+#home {
+	background: url(../images/homebg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+
+#home .container {
+	padding: 200px 0;
+
+}
+
+/** always keep the mother id then the selector **/
+
+#home h1 {
+	font-size: 72px;
+	color: #fff;
+	font-weight: 100;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+#home h3 {
+	font-size: 24px;
+	font-weight: 100;
+	color: #fff; /** harus detail dengan sesuai klient bahkan tulisan **/
+	margin-bottom: 30px;
+}
+#home i {
+    font-size: 30px;
+    color: #fff;
+}
+
+#about {
+	background: url(../images/aboutbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 440px;
+}
+
+#about .container {
+	padding: 200px 0;
+	width: 700px;
+
+}
+#about h3 {
+	font-size: 24px;
+	color: #fff;
+	font-weight: 100;
+}
+#about hr {
+	width: 10%;
+}
+#about p {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 100;
+}
