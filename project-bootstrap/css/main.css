@@ -1,0 +1,154 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+#home {
+	background: url(../images/homebg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+
+#home .container {
+	padding: 200px 0;
+
+}
+
+/** always keep the mother id then the selector **/
+
+#home h1 {
+	font-size: 72px;
+	color: #fff;
+	font-weight: 100;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+#home h3 {
+	font-size: 24px;
+	font-weight: 100;
+	color: #fff; /** harus detail dengan sesuai klient bahkan tulisan **/
+	margin-bottom: 30px;
+}
+#home i {
+    font-size: 30px;
+    color: #fff;
+}
+
+#about {
+	background: url(../images/aboutbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 440px;
+}
+
+#about .container {
+	padding: 200px 0;
+	width: 700px;
+
+}
+#about h3 {
+	font-size: 24px;
+	color: #fff;
+	font-weight: 100;
+}
+#about hr {
+	width: 10%;
+}
+#about p {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 100;
+}
+
+#services h3 {
+	color: #873fb5;
+	font-weight: 100;
+}
+
+#services .service-title {
+	padding: 50px 0;
+}
+
+#services i {
+	font-size: 48px;
+	border-right: 2px solid #c1c1c1;
+	color: #c1c1c1;
+	padding-right: 20px;
+	float: left;
+}
+
+#services h2 {
+	font-weight: 900;
+	font-size: 24px;
+}
+
+#services h4 {
+	color: #873fb5;
+	margin-top: -8px;
+
+}
+
+#services .service-header {
+	display: inline-block;
+	margin-top: -20px;
+	padding-left: 20px; 
+}
+#services .container .coll {
+	padding-bottom: 50px;
+}
+#skills {
+	background: url(../images/skillsbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 467px;
+}
+
+#skills .skill-left {
+	padding: 110px 0;
+}
+
+#skills h2 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #fff;
+}
+
+#skills h3 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    margin-top: -10px;
+}
+#skills p {
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+#skills .button1 {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding-bottom: 10px;
+
+}
+#skills .button1:hover {
+	color: #873fb5;
+	border-bottom: 3px solid #873fb5;
+}
+#skills .button2 {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 15px;
+    text-decoration: none;
+    padding-bottom: 10px; 
+}
+#skills .button2:hover {
+	color: #873fb5;
+	border-bottom: 3px solid #873fb5;
+}
