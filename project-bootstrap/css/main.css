@@ -152,3 +152,17 @@ body{
 	color: #873fb5;
 	border-bottom: 3px solid #873fb5;
 }
+#gallery .container .photo-gallery {
+	padding-bottom: 10px;
+}
+#gallery .image-responsive {
+    width: 295px;
+    display: inline-block;
+}
+#gallery .photo-gallery {
+    width: 24%;
+}
+
+#gallery h3 {
+	color: #873fb5;
+}
