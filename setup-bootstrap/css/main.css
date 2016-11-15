@@ -152,18 +152,133 @@ body{
 	color: #873fb5;
 	border-bottom: 3px solid #873fb5;
 }
-#gallery .container .photo-gallery {
-	margin-left:8px;
+#portfolio h3 {
+	color: #873fb5;
+	padding: 22px 0;
+
 }
-#gallery .image-responsive {
-    width: 295px;
-    display: inline-block;
-    padding-right:19px;	
-}
-#gallery .photo-gallery {
-    width: 27%;
+#portfolio .col-md-4 {
+	padding: 0;
 }
 
-#gallery h3 {
-	color: #873fb5;
+#portfolio .image-responsive {
+    width: 390px;
+}
+
+/** padding 0 untuk merapatkan**/
+
+#skills .skill-right{
+	padding: 100px 50px;
+}
+#skills h4 {
+	color: white;
+}
+#skills .progress{
+	height: 30px;
+	opacity: 0.5;
+}
+#skills .progress-bar{
+
+	background: #793a94; 
+	background: -moz-linear-gradient(top,  #793a94 0%, #8d4563 100%); 
+	background: -webkit-linear-gradient(top,  #793a94 0%,#8d4563 100%); 
+	background: linear-gradient(to bottom,  #793a94 0%,#8d4563 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#793a94', endColorstr='#8d4563',GradientType=0 ); 
+
+}
+
+#statistic{
+	padding: 100px 0;
+} 
+#statistic .stats1 {
+	background: url(../images/stats1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 171px;
+	padding: 35px 0;
+}
+#statistic i {
+	font-size: 30px;
+    color: #fff;
+}
+#statistic h4 {
+    font-size: 21px;
+    color: #fff;
+    margin-top: 2px;
+}
+#statistic p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 100;
+    margin-top: -10px;
+}
+#statistic .stats2 {
+	background: url(../images/stats2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 171px;
+	padding: 35px 0;
+}
+#statistic i {
+	font-size: 30px;
+    color: #fff;
+}
+#statistic h4 {
+    font-size: 21px;
+    color: #fff;
+    margin-top: 2px;
+}
+#statistic p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 100;
+    margin-top: -10px;
+}
+#statistic .stats3 {
+	background: url(../images/stats3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 171px;
+	padding: 35px 0;
+}
+#statistic i {
+	font-size: 30px;
+    color: #fff;
+}
+#statistic h4 {
+    font-size: 21px;
+    color: #fff;
+    margin-top: 2px;
+}
+#statistic p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 100;
+    margin-top: -10px;
+}
+#statistic .stats4 {
+	background: url(../images/stats4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 171px;
+	padding: 35px 0;
+}
+#statistic i {
+	font-size: 30px;
+    color: #fff;
+}
+#statistic h4 {
+    font-size: 21px;
+    color: #fff;
+    margin-top: 2px;
+}
+#statistic p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 100;
+    margin-top: -10px;
 }
