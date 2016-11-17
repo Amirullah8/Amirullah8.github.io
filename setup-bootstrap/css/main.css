@@ -1,5 +1,7 @@
 body{
 	font-family: 'Lato', sans-serif;
+	position: relative;
+	overflow-x: hidden;
 }
 
 #home {
@@ -47,8 +49,7 @@ body{
 }
 
 #about .container {
-	padding: 200px 0;
-	width: 700px;
+	padding: 120px 0;
 
 }
 #about h3 {
@@ -63,6 +64,8 @@ body{
 	color: #fff;
 	font-size: 14px;
 	font-weight: 100;
+	width: 60%;
+	display: inline-block;
 }
 
 #services h3 {
@@ -106,7 +109,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 467px;
+	height: 100%;
 }
 
 #skills .skill-left {
@@ -164,6 +167,51 @@ body{
 #portfolio .image-responsive {
     width: 390px;
 }
+#portfolio .portfolio-thumb {
+	height: 260px;
+	max-width: 390px;
+	overflow: hidden;
+	padding: 0;
+	margin:0;
+}
+
+#portfolio .portflio-thumb img {
+	width: 100%;
+	height: 100%;
+}
+#portfolio .portfolio-overlay {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	background-color: #8d4563;
+	opacity: 0;
+	text-align: center;
+	padding: 100px 0;
+}
+#portfolio .portfolio-overlay h3 {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 400;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	padding: 10px 0;
+}
+#portfolio .portfolio-thumb:hover .portfolio-overlay {
+	opacity: .75;
+	cursor: pointer;
+}
+#portfolio .portfolio-overlay i {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	color: #fff;
+
+	font-size: 24px;
+}
+
 
 /** padding 0 untuk merapatkan**/
 
@@ -308,15 +356,25 @@ body{
     font-weight: 100;
     padding-top: 19px;
 }
-#forms {
-    padding: 74px 0;
+#contact {
+    padding: 50px 0;
 }
-.form-group {
-    margin-left: 21px;
+
+#contact .btn {
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-bottom: 11px;
 }
-#forms .form-inline {
-    margin-bottom: 17px;
+
+.form-control {
+    background-color: #eee;
+    height: 48px;
 }
+
+textarea.form-control {
+    min-height: 200px;
+}
+
 
 #footer {
 	background: url(../images/homebg.png);
@@ -339,3 +397,4 @@ body{
 #footer i {
 	color: white;
 }
+
