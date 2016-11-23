@@ -394,7 +394,13 @@ textarea.form-control {
     display: inline-block;
     padding-bottom: 15px;
 }
-#footer i {
+#footer .social i {
 	color: white;
+	font-size: 43px;
 } 
+
+#footer .copy {
+	background-color: rgba(36, 29, 41, 0.74);
+	max-width: 100%;
+}
 
