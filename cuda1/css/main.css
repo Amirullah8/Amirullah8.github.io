@@ -1,0 +1,238 @@
+body {
+}
+#services, #team, #skills, #portfolio, #testimony, #contact {
+    padding: 50px 0;
+    margin-top: -20px;
+}
+hr {
+	width: 10%;
+}
+#navbar {
+    background-color: #86509b;
+    border-radius: 0px;
+    border-color: #86509b;
+}
+#navbar ul>li.active>a, #navbar ul>li>a:hover {
+    background: #643a79;
+}
+#navbar ul li a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 15px;
+    border-radius: 7px;
+    margin-left: 5px;
+}
+
+#home {
+    background-color: #86509B;
+    height: 362px;
+    margin-top: -20px;
+}
+#home .home {
+    padding: 48px 0;
+}
+#home .navbar-brand {
+    color: white;
+}
+#home h1 {
+    color: white;
+    font-size: 38px;
+    width: 1295px;
+}
+#home .btn-default.set {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    width: auto;
+    padding: 25px 50px;
+    border: none;
+    margin: 40px auto 0;
+    color: #fff;
+    border-bottom: 4px solid #14a58c;
+    font-weight: 600;
+    font-size: 18px;
+}
+#services {
+	background-color: #16c1a3;
+	padding: 100px 0;
+	color: #fff;
+}
+#services img {
+    height: 100px;
+    text-align: center;
+}
+
+#services h4{
+	text-align: center;
+}
+
+#services p{
+	text-align: center;
+}
+#services hr {
+	color: #e6f0f7;
+	border: 3px solid #b0bdc5;
+	margin-top: 10px;
+}
+
+#team {
+	background: #E6f0f7;
+	padding: 100px 0;
+}
+
+#team hr {
+    color: #e6f0f7;
+    border: 3px solid #b0bdc5;
+    margin-top: 10px;
+}
+#team i.fa.fa-circle {
+    font-size: 165px;
+    margin-bottom: 5px;
+}
+
+#portfolio {
+	background-color: #ffdd99;
+	padding: 100px 0;
+}
+#portfolio hr {
+	color: #e6f0f7;
+	border: 3px solid #b0bdc5;
+	margin-top: 10px;
+}
+#portfolio img {
+    width: 595px;
+}
+#portfolio p {
+	text-align: center;
+}
+#portfolio .btn-default.active, #portfolio .btn-default:hover {
+    background: #fff;
+    box-shadow: none;
+}
+#portfolio .btn-default {
+    background: #ebc985;
+    color: #393939;
+    border: none;
+    width: 78px;
+    margin: 0 4px 60px;
+    font-weight: 400;
+    font-size: 18px;
+}
+#portfolio .btn-default.more {
+    width: auto;
+    padding: 25px 50px;
+    border: none;
+    margin: 40px auto 0;
+    color: #fff;
+    background: #17c2a4;
+    border-bottom: 4px solid #14a58c;
+    font-weight: 600;
+    font-size: 18px;
+}
+#testimony hr{
+	color: #e6f0f7;
+	border: 3px solid #b0bdc5;
+	margin-top: 10px;
+}
+
+#testimony {
+	color: #fff;
+	padding: 100px 0;
+	background-color: #d74680;
+}
+#testimony .container .people {
+	padding-bottom: 50px;
+}
+
+#testimony i {
+    font-size: 105px;
+    color: #c1c1c1;
+    padding-right: 20px;
+    float: left;
+}
+#skills p {
+    font-size: 17px;
+    margin-bottom: 53px;
+}
+#skills {
+	padding: 100px 0;
+}
+#skills hr {
+	color: #e6f0f7;
+	    border: 3px solid #b0bdc5;
+	    margin-top: 10px;
+}
+#skills .c100{
+	float: none;
+	margin: 0 auto;
+}
+#skills .c100 > span {
+    color: inherit;
+    font-weight: 100;
+    font-size: 28px;
+    line-height: 375%;
+}
+#skills .one .c100 .bar, #skills .one .c100 .fill {
+    border: 0.08em solid #30bae7;
+}
+#skills .two .c100 .bar, #skills .two .c100 .fill {
+    border: 0.08em solid #d74680;
+}
+#skills .three .c100 .bar, #skills .three .c100 .fill {
+    border: 0.08em solid #15c7a8;
+}
+#skills .four .c100 .bar, #skills .four .c100 .fill {
+    border: 0.08em solid #eb7d4b;
+}
+#contact {
+	background-color: #3c5499;
+}
+#contact hr {
+	color: #e6f0f7;
+	    border: 3px solid #b0bdc5;
+	    margin-top: 10px;
+}
+#contact {
+    color: #fff;
+    padding: 100px 0;
+}
+#contact .btn-default.send {
+    width: auto;
+    padding: 25px 50px;
+    border: none;
+    margin: 40px auto 0;
+    color: #fff;
+    background: rgb(60, 132, 153);
+    border-bottom: 4px solid #14a58c;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+#footer {
+    background: #344b8e;
+    color: #fff;
+}
+
+#footer .social-nav {
+    display: inline-block;
+    border: none;
+    padding: 20px 0;
+    border-radius: initial;
+}
+
+#footer .social-nav li {
+	display: inline-block;
+	text-align: center;
+	padding: 5px 20px;
+}
+#footer .social-nav a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+}
+#footer .social-nav a:hover, #footer .social-nav .active {
+    color: #30bae7;
+}
