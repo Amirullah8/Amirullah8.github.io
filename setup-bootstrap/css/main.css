@@ -377,7 +377,7 @@ textarea.form-control {
 
 
 #footer {
-	background: url(../images/homebg.png);
+	background: linear-gradient(0deg, red, yellow), url(../images/homebg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -402,5 +402,6 @@ textarea.form-control {
 #endfooter .container {
 	background-color: black;
 	width: 100%;
+	color: #fff;
 }
 
