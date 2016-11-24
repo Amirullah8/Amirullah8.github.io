@@ -377,12 +377,12 @@ textarea.form-control {
 
 
 #footer {
-	background: linear-gradient(rgba(87, 51, 99, 0.4), rgba(135, 63, 181, 0.47)), url(../images/homebg.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 250px;
-	padding: 53px 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(10, 1, 16, 0.82)), url(../images/homebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    padding: 53px 0px;
 }
 
 #footer h1 {
