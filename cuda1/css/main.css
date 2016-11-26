@@ -11,6 +11,7 @@ hr {
     background-color: #86509b;
     border-radius: 0px;
     border-color: #86509b;
+    padding: 47px 0;	
 }
 #navbar ul>li.active>a, #navbar ul>li>a:hover {
     background: #643a79;
