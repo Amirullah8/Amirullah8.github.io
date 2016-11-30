@@ -1,0 +1,93 @@
+#home, #services, #quotes, #portfolio, #motivation, #contact, #footer-top {
+	padding: 50px 0;
+    margin-top: -20px;
+}
+
+#navbar {
+    background-color: black;
+    border-radius: 0px;
+    border-color: black;
+    padding: 47px 0;	
+}
+
+#navbar ul>li.active>a, #navbar ul>li>a:hover {
+    background: #643a79;
+}
+
+#navbar ul li a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 15px;
+    border-radius: 7px;
+    margin-left: 5px;
+}
+
+hr {
+	width: 10%;
+}
+
+#home {
+    background-color: rgba(104, 118, 123, 0.16);
+}
+
+#services {
+    background-color: #354a43;
+}
+
+#services h2{
+	color: #fff;
+}
+
+#services h3{
+	color: #fff;
+}
+
+#services p{
+	color: #fff;
+}
+
+#quotes {
+    background: linear-gradient(rgba(31, 62, 150, 0.4), rgba(39, 107, 98, 0.47)),url(../images/lampu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 36px 0;
+}
+
+#quotes h1 {
+	color: #fff;
+}
+
+#quotes h2 {
+	color: #fff;
+	margin-top: 20px;
+}
+
+#portfolio .col-md-4 {
+	padding: 0;
+}
+
+#portfolio .image-responsive {
+    width: 390px;
+}
+
+#contact {
+    background: linear-gradient(rgba(31, 62, 150, 0.4), rgba(39, 107, 98, 0.47)),url(../images/im.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 584px;
+    padding: 129px 0;
+}
+.form-control {
+    background-color: #eee;
+    height: 48px;
+}
+
+textarea.form-control {
+    min-height: 200px;
+}
+
+#footer-top {
+    background-color: black;
+}
