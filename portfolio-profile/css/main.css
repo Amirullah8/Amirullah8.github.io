@@ -1,3 +1,7 @@
+body {
+	font-family: 'Alegreya', serif;
+}
+
 #home, #services, #quotes, #portfolio, #motivation, #contact, #footer-top {
 	padding: 50px 0;
     margin-top: -20px;
@@ -90,4 +94,8 @@ textarea.form-control {
 
 #footer-top {
     background-color: black;
+    color: #fff;
+}
+#footer-top .social i {
+	font-size: 25px;
 }
